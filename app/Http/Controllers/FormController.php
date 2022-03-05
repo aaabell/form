@@ -32,7 +32,7 @@ class FormController extends Controller
                 'forms' => $formTemplates,
             ]);
         } catch (\Exception $ex) {
-            echo $ex->getMessage();
+            // echo $ex->getMessage();
 
             abort(500);
         }
@@ -40,7 +40,7 @@ class FormController extends Controller
 
 
     /**
-     * List form data to user
+     * Add update form template data
      * 
      * @param request $request
      * 
@@ -100,7 +100,7 @@ class FormController extends Controller
                 'formTemplate' => [],
             ]);
         } catch (\Exception $ex) {
-            echo $ex->getMessage();
+            // echo $ex->getMessage();
 
             abort(500);
         }
@@ -108,7 +108,7 @@ class FormController extends Controller
 
 
     /**
-     * List form data to user
+     * Edit form data
      * 
      * @param request $request
      * 
@@ -163,7 +163,7 @@ class FormController extends Controller
                 'formTemplate' => $response,
             ]);
         } catch (\Exception $ex) {
-            echo $ex->getMessage();
+            // echo $ex->getMessage();
 
             abort(500);
         }
@@ -171,7 +171,7 @@ class FormController extends Controller
 
 
     /**
-     * List form data to user
+     * Delete form inputs
      * 
      * @param request $request
      * 
@@ -207,14 +207,14 @@ class FormController extends Controller
                 ], 200);
             }
         } catch (\Exception $ex) {
-            echo $ex->getMessage();
+            // echo $ex->getMessage();
 
             abort(500);
         }
     }
 
     /**
-     * view form 
+     * View form 
      * 
      * @param request $request
      * 
@@ -235,7 +235,7 @@ class FormController extends Controller
                 'formTemplate' => $response,
             ]);
         } catch (\Exception $ex) {
-            echo $ex->getMessage();
+            // echo $ex->getMessage();
 
             abort(500);
         }

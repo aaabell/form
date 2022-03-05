@@ -20,11 +20,11 @@ Do these steps to run application in local
 - Run php artisan db:seed
 - Login as admin, email : admin@formapp.com, password : 12345678
 - Go to Manage Form, which will list all form which been created
-- Click Add Form to create a new for, this will redirect you to add new form page
+- Click Add New to create a new form, this will redirect you to add new form page
 - Enter Title and instruction, then click save form template
 - After form template is saved, admin will be shown with input lists and a new add form input button
 - Click Add form input to create new form input elements
 - Click save input form to save new input field
 - Once saved corresponding data will be reflected in table
 - Edit and delete options will be shown for all input field inside a form
-- Click view forms tab to see all form listing and view each form
+- Click View forms tab on sibebar menu to see all form listing and view each form
